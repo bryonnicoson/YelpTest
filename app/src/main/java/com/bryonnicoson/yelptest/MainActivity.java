@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 
-import com.bryonnicoson.yelptest.models.YelpResponse;
 import com.yelp.clientlib.connection.YelpAPI;
 import com.yelp.clientlib.connection.YelpAPIFactory;
 import com.yelp.clientlib.entities.SearchResponse;
@@ -21,12 +20,11 @@ import retrofit2.Call;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String CONSUMER_KEY = "p_Sow-jWWfC12oPsFePuCw";
-    private static final String CONSUMER_SECRET = "XNlEA5HdGSdctoZ98OxkuZ_Yn90";
-    private static final String TOKEN = "i6BBygoo65ahqBCI6ecGDsuQoQYHCuRB";
-    private static final String TOKEN_SECRET = "g8Xn0ylAYm4UoqdoHoH96reP8Qo";
+    private static final String CONSUMER_KEY = "";
+    private static final String CONSUMER_SECRET = "";
+    private static final String TOKEN = "";
+    private static final String TOKEN_SECRET = "";
     Map<String, String> params = new HashMap<>();
-    YelpResponse yelpResponse;
     SearchResponse searchResponse;
 
     String test;
